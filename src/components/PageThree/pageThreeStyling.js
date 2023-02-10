@@ -6,7 +6,7 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   background-color: #f1f1f1;
-  @media (max-width: 900px) {justify-content:center;}
+  @media (max-width: 900px) {align-items: baseline;height:235vh;}
 `;
 
 const InnerContainer = styled.div`
@@ -34,6 +34,7 @@ const Items = styled.div`
     width: 15.3vw;
     height: 275px;
     display: flex;
+    margin-top: 14px;
     flex-direction: column;
     overflow: hidden;
     align-items: center;
@@ -126,8 +127,14 @@ const box1={
 }
 const box2={
   marginTop:"35px",
-  backgroundImage:"url('https://cdn-icons-png.flaticon.com/512/1006/1006363.png')",
-  backgroundSize:"cover"
+  backgroundImage:"url('https://www.pngmart.com/files/21/AI-PNG-Isolated-Image.png')",
+  backgroundSize:"cover",
+   display: "block",
+  marginLeft: "auto",
+  marginRight: "auto",
+  width: "100px",
+  height: "70px",
+
 }
 const box3={
   width:"80%",
@@ -150,7 +157,7 @@ const box2a={
 }
 const box2b={
   marginTop:"-100px",
-  backgroundImage:"url('https://cdn-icons-png.flaticon.com/512/1006/1006363.png')",
+  backgroundImage:"url('https://d1.awsstatic.com/events/aws-hosted-events/2019/APAC/machine-learning/innovate19-ml-lightbulb_600x600.77d40f88607751364b3428d07d4192992ce8d5e7.gif')",
   backgroundSize:"cover"
 }
 

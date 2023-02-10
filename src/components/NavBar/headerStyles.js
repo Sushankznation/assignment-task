@@ -10,7 +10,7 @@ const Container = styled.div`
   position: fixed;
   z-index: 5;
   width: 100%;
-  transition: background-color 0.3s;
+  transition: background-color 0.7s;
   ${props => props.scrolled && `
     background-color: rgba(1,1,1,0.8);
     height: 75px;

@@ -15,12 +15,13 @@ const InnerContainer = styled.div`
   align-items: center;
   justify-content: space-evenly;
   overflow: hidden;
-  margin: 0 150px 0 150px;
+  margin: 0 60px 0 150px;
   @media (max-width: 900px) { flex-direction:column;z-index:5;margin:0px;overflow:visible;};
 `;
 
 const Wrapper = styled.div`
-  height: 40vh;
+  height: 32vh;
+  line-height: 1.2;
   flex: 1.5;
   box-sizing: border-box;
   padding: 10px 20px 10px 20px;

@@ -14,7 +14,8 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
-  height: 25vh;
+  height: 20vh;
+  line-height: 1.5;
   box-sizing: border-box;
   padding: 5px 20px 5px 20px;
   margin: 0 150px 0 150px;
