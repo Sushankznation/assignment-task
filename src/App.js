@@ -6,8 +6,20 @@ import PageThree from './components/PageThree/PageThree'
 import PageTwo from './components/PageTwo/PageTwo'
 import NavBar from './components/NavBar/NavBar'
 import Main from './components/Main/Main'
-
+import Loader from './components/Loader/Loader'
+import { useState,useEffect } from 'react'
 const App = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+  }, []);
+
+  if (isLoading) {
+    return <Loader />;
+  }
   return (
     <>
         <NavBar/>
@@ -21,4 +33,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
