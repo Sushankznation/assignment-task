@@ -52,4 +52,16 @@ const Right = styled.div`
   padding: 20px;
   margin-top: 15px;
 `;
-export {Container,Wrapper,Left,Desc,Center,Title,Title2,List,ListItem,Right}
+const End = styled.div`
+  flex: 1;
+  padding: 10px;
+  background-color:black;
+  height:5vh;
+  color:grey;
+  font-size:15px;
+  display:flex;
+  align-items:center;
+  font-weight: bold;
+  @media (max-width: 900px) { font-size:10px; }
+`;
+export {Container,Wrapper,Left,Desc,Center,Title,Title2,List,ListItem,Right,End}

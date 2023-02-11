@@ -45,10 +45,9 @@ nav>.mobile-menu>li {
     background-color: black;
 }
 .logo_img{
-    width: 35%;
-  height: 50px;
+  height: 70px;
   padding: 8px 0;
-  width: 150px;
+  width: 250px;
 }
 nav>.mobile-menu>li>a {
     width: 100%;
@@ -77,13 +76,13 @@ nav {
     position: fixed;
     z-index: 10;
     width: 100%;
-    transition: height 0.7s ease-out 0.3s;
+    height:100px;
   }
   
   nav.scrolled {
     background-color: rgba(1,1,1,0.8);
-    height: 75px;
-    transition: height 0.7s ease-out 0.3s;
+    height: 80px;
+    transition: height 1s  ease-out 0.3s;;
   }
   
 @media screen and (max-width: 600px) {

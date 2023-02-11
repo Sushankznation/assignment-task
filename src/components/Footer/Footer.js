@@ -1,5 +1,5 @@
 import { SocialIcon } from 'react-social-icons';
-import  {Container,Wrapper,Left,Desc,Center,Title,Title2,List,ListItem,Right} from './footerStyles'
+import  {Container,Wrapper,Left,End,Desc,Center,Title,Title2,List,ListItem,Right} from './footerStyles'
 
 const Footer = () => {
   return (
@@ -40,6 +40,7 @@ const Footer = () => {
         
       </Right>
       </Wrapper>
+      <End>© Copyright 2017 - 2023 | Rubixe is a brand of THINK AHEAD INNOVATIONS PVT. LTD. | All Rights Reserved</End>
     </Container>
   );
 };
