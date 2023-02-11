@@ -4,7 +4,7 @@ const Three = () => {
     <>
         <Container>
         <InnerContainer>
-        <Title>TECH FOR TEENS - A RUBIXE INITIATIVE</Title>
+        <Title>TECH FOR TEENS - A RUBIXE @INITIATIVE</Title>
         <Wrapper>
           <Items style={item1}>
             <P style={P1a}></P>
