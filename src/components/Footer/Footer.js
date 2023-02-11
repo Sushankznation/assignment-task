@@ -18,12 +18,12 @@ const Footer = () => {
       <Center>
       <Title2>MENUS</Title2>
         <List>
-          <ListItem>Home</ListItem>
-          <ListItem>About</ListItem>
-          <ListItem>Services</ListItem>
-          <ListItem>Contact Us</ListItem>
-          <ListItem>Products</ListItem>
-          <ListItem>Career</ListItem>
+          <ListItem>HOME</ListItem>
+          <ListItem>ABOUT US</ListItem>
+          <ListItem>SERVICES</ListItem>
+          <ListItem>CONTACT US</ListItem>
+          <ListItem>PRODUCTS</ListItem>
+          <ListItem>CAREER</ListItem>
         </List>
       </Center>
       <Right>

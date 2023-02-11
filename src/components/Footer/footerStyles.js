@@ -38,6 +38,7 @@ const List = styled.ul`
 `;
 const ListItem = styled.li`
   width: 50%;
+  font-size:15px;
   margin-bottom: 10px;
   cursor: pointer;
   color: black;
